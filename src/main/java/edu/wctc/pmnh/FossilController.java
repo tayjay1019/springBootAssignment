@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/fossils")
 public class FossilController {
     @RequestMapping("/trilobites")
-    public String showFacts() {
+    public String showTriloFacts() {
         return "pages/trilobites";
     }
 

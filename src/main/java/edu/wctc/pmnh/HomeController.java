@@ -12,7 +12,8 @@ public class HomeController {
 
     @RequestMapping("/redirect-me")
     public String doRedirect() {
-        return "redirect:/glaciers/trail";
+        return "redirect:http://www.wctc.edu";
+//        return "redirect:/glaciers/trail";
     }
 
     @RequestMapping("/")
